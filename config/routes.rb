@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
   resources "companies"
+  #shortcut for the 7 restful routes
+  #get index
+  #getshow
+  #get new
+  #post create
+  #get edit 
+  #patch update
+  #delete destroy
   resources "contacts"
   resources "activities"
   resources "tasks"
